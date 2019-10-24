@@ -77,7 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
   opacity: 0.9;
 }
 </style>
-
+Registration is capped at 30 participants. There is a waiting list for registrants above the cap.
 
 
 
@@ -209,6 +209,8 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 </p>
+
+<strong>This event has been generously sponsored by the Dean of the College of University Libraries and Learning Sciences</strong>
 
 <hr/>
 
