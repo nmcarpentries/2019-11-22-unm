@@ -29,17 +29,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
 
 {% comment %}
 Check DC curriculum
@@ -70,6 +59,26 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+
+<!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_5973214" matches with the above code: jQuery("#s_lc_event_5973214")  //-->
+<a id="s_lc_event_5973214" href="https://libcal.unm.edu/calendar/register/2019-11-22_DataCarpentry">CLICK AND REGISTER</a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_5973214 {
+  background: #DFDFDF;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  color: #777777;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_5973214:hover {
+  opacity: 0.9;
+}
+</style>
+
+
 
 
 <h2 id="general">General Information</h2>
